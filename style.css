@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding-top: 700px;
+    text-align: center;
+}
+.profile {
+    width: 172px;
+    margin-bottom: 52px;
+}
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 700;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.70;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.div1 {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 37px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 200;
+}
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.link {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: serif;
+    font-size: 27px;
+}
+.link:hover {
+    background-color: dodgerblue;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 200;
+}
+#bio {
+    padding: 52px;
+    font-size: 37px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 7px auto;
+}
+p {
+    max-width: 452px;
+    margin: 27px auto;
+    font-size: 17px;
+    line-height: 1.2; 
+}
+.menu {
+    list-style: none;
+    font-family: serif;
+    position: absolute;
+    top: 7px;
+    right: 27px;
+    z-index: 7;
+    cursor: pointer;
+}
