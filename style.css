@@ -77,9 +77,18 @@ p {
 .menu {
     list-style: none;
     font-family: serif;
-    position: absolute;
+    position: fixed;
     top: 7px;
     right: 27px;
     z-index: 7;
     cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+    color: dodgerblue;
+}
+html {
+    scroll-behavior: smooth;
 }
