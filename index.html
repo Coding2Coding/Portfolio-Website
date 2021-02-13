@@ -6,18 +6,35 @@
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="link"><a href="#welcome">Home</a></li>
-        <li class="link"><a href="#video">Videos</a></li>
-        <li class="link"><a href="#work">Work</a></li>
-        <li class="link"><a href="#writing">Writings</a></li>
-        <li class="link"><a href="#contact">Contact</a></li>
-    </ul>
+    <nav class="navbar-inverse nav-bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav~bar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.google.com/">Click Me</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="nav~bar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#video">Videos</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#writing">Writings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <section id="welcome">
-        <div class="div1"><img src="codingPic2.jpg" class="profile">
+        <div class="div"><img src="codingPic2.jpg" class="profile">
             <h1>I am <br><span id="name">Tim Berners Lee</span></h1>
             <h2>I am the founder of www: world wide web</h2>
         </div>
@@ -45,6 +62,16 @@
         <div class="line"></div><a class="article" href="https://webfoundation.org/2019/03/web-birthday-30/" target="_blank">30 years on, what's next #ForTheWeb</a>
         <br>
         <a class="article" href="https://webfoundation.org/about/sir-tim-berners-lee/" target="_blank">Sir Tim Berners Lee World Wide Web Foundation</a>
+    </section>
+    <section id="contact">
+        <br>
+        <br>
+        <div class="contact-1">
+            <a href="mailto:gmail@gmail.com?Subject=hello"><i class="fa fa-envelope"></i>
+                &nbsp;&nbsp;
+                <h2>gmail@gmail.com</h2>
+            </a>
+        </div>
     </section>
 </body>
 
